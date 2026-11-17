@@ -1,0 +1,39 @@
+# Local environments and generated Python files
+.venv/
+.venv*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Course-provided assets, checkpoints and reference material
+assets/
+weights/
+lecture-demos/
+practice/
+extensions/
+SOURCE-MANIFEST.json
+PPT-CODE-MAP.txt
+ie.md
+*.npz
+*.npy
+*.pt
+*.pth
+*.safetensors
+
+# Local results, backups and logs
+output_tokens.npz
+outputs/*
+!outputs/report_figures/
+outputs/report_figures/*
+!outputs/report_figures/model_pipeline_with_extensions.png
+*.log
+
+# Private or local configuration
+.env
+.env.*
+*.pem
+*.key
